@@ -1,0 +1,18 @@
+*{
+    margin-bottom: 10px;
+}
+
+
+.corpo{
+    border: 2px solid rgb(221, 33, 33); /* Adiciona uma borda vermelha de 2 pixels ao redor da tabela */
+}
+
+th, td {
+    border: 1px solid black; /* Adiciona bordas pretas às células */
+
+}
+
+.marcador{
+background-color: rgb(151, 151, 151);
+color: rgb(255, 255, 255);
+}
