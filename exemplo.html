@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="exemplo.css">
+</head>
+
+<body>
+    <table border="2"> <!--inicia a tabela-->
+        <tr> <!--linha-->
+            <td rowspan="3"> Agora vai</td>
+            <td> Nome </td><!--célula-->
+            <td> Cidade</td>
+        </tr>
+        <tr>
+            <td>Fulano</td>
+            <td>SBO</td>
+        </tr>
+        <tr>
+            <td>Beltrano </td>
+            <td>Americana</td>
+        </tr>
+
+    </table>
+    <br>
+
+    <table border="2">
+
+        <thead>
+            <tr>
+                <th colspan="2"> Lista de Clientes</th>
+            </tr>
+            
+            <tr>
+                <th> Nome </th>
+                <th> Cidade</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="2"> Unidade de Americana</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Fulano</td>
+                <td>SBO</td>
+            </tr>
+            <tr>
+                <td>Beltrano </td>
+                <td>Americana</td>
+            </tr>
+        </tbody>
+        
+    </table>
+    <br>
+
+    <table class="tabela">
+
+        <thead>
+            <tr>
+                <th colspan="2"> Lista de Clientes</th>
+            </tr>
+            
+            <tr>
+                <th> Nome </th>
+                <th> Cidade</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td  class="destaque" colspan="2"> Unidade de Americana</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Fulano</td>
+                <td>SBO</td>
+            </tr>
+            <tr>
+                <td>Beltrano </td>
+                <td>Americana</td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+
+</body>
+
+</html>
