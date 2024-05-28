@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+
+}
+
+th {
+    background-color: #d6e2ec;
+    color: #657894;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    color: #495867;
+    background-color: #e5ebf7;
+}
